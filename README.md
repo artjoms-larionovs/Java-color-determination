@@ -1,18 +1,18 @@
-Programma, kas izpilda sekojošas darbības:
+A program that performs the following actions:
 
-• Ievada punkta koordinātes x un y (double tipa skaitļus)
+• Reads the x and y coordinates of a point (double-precision numbers)
 
-• Izvada punkta krāsu, ievērojot sekojošu attēlu (izvada paziņojumu “white”, “red”, “green” vai “blue”)
+• Outputs the color of the point according to the following table (outputs the message “white,” “red,” “green,” or “blue”)
 
-Pieņemt, ka robežu krāsas vietās, kur pieskaras vairākas krāsas ir šādas:
+Assume that the border colors at points where multiple colors meet are as follows:
 
-• balta un sarkana - sarkana
+• white and red – red
 
-• balta un zila - zila
+• white and blue – blue
 
-• sarkana un zila (vai sarkana, zila un balta) - zila
+• red and blue (or red, blue, and white) – blue
 
-• zaļa un zila – zila
+• green and blue – blue
 
 
-Programmā iekļauj lietotāja nepareizu darbību apstrādi, izvadot ekrānā paziņojumu par kļūdu: "input-output error"
+The program includes handling of user errors by displaying an error message on the screen: “input-output error”
